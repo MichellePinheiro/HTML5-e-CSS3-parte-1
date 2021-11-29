@@ -94,12 +94,9 @@ footer {
     margin: 20px;
 }
 
-main {
-
-}
-
 form {
-    margin: 40px 0;
+    margin: 25px 0;
+    padding: 10px 20px;
 }
 
 form label, form legend {
@@ -145,6 +142,10 @@ thead {
     background: dimgrey;
     color: white;
     font-weight: bold;
+}
+
+.table_horario {
+    padding: 10px 20px;
 }
 
 td, th {
@@ -266,4 +267,22 @@ td, th {
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
     }
+
+    .produtos {
+        width: 100%;  
+    }
+
+    .produtos li {
+        display: inherit;
+        width: auto;
+    }
+
+    .enviar {
+        width: 50%;
+    }
+
+    .input-padrao {
+        padding: 2px 20px;
+    }
 }
+
